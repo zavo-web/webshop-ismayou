@@ -1,0 +1,225 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+nav {
+    background-color: white;
+    display: flex;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    padding: 1px;
+}
+
+
+.nav-ul a:hover {
+    background-color: grey;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.3s;
+
+}
+
+.winkelwagen {
+    display: flex;
+    width: 33px;
+    height: 35px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.winkelwagen:hover {
+    transition: all 0.3s;
+    opacity: 50%;
+}
+
+.profile {
+    display: flex;
+    width: 38px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.profile:hover {
+    transition: all 0.3s;
+    opacity: 50%;
+}
+
+.icoon {
+    display: flex;
+    margin-right: 15px;
+
+}
+
+.nav-zoeken {
+    display: flex;
+    border-radius: 1px;
+    margin-left: auto;
+    height: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+li a,
+.aheren {
+    display: flex;
+    color: black;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.divheren {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.divheren a {
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.divheren a:hover {
+    background-color: ghostwhite;
+}
+
+.Heren:hover .divheren {
+    display: block;
+}
+
+li a,
+.adames {
+    color: black;
+}
+
+.divdames {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.divdames a {
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.divdames a:hover {
+    background-color: ghostwhite;
+}
+
+.Dames:hover .divdames {
+    display: block;
+}
+
+li a,
+.akids {
+    color: black;
+}
+
+.divkids {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.divkids a {
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.divkids a:hover {
+    background-color: ghostwhite;
+}
+
+.Kids:hover .divkids {
+    display: block;
+}
+
+h4 {
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 100vh;
+    width: 100%;
+    background: url(pexels-milodeckert-18014874.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    color: white;
+    font-size: 100px;
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 30px;
+}
+
+.lijst {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Schoenen {
+    width: 250px;
+
+}
+
+.isan {
+    list-style: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.isan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px;
+    transition: all 0.3s ease;
+}
