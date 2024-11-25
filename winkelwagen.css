@@ -1,0 +1,45 @@
+body {
+    background-color: lavender;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    border-radius: 50px;
+    margin-right: 1500px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.winkelbutton {
+    background-color: white;
+}
+
+.izan {
+    margin-left: 200px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+button:hover {
+    color: darkgray;
+}

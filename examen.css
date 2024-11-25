@@ -1,5 +1,10 @@
+body {
+    background-color: whitesmoke;
+}
+
+
 nav {
-    background-color: lightgrey;
+    background-color: white;
     display: flex;
 }
 
@@ -27,6 +32,11 @@ nav {
     border-radius: 25px;
 }
 
+.winkelwagen:hover {
+    transition: all 0.3s;
+    opacity: 50%;
+}
+
 .profile {
     display: flex;
     width: 38px;
@@ -34,6 +44,11 @@ nav {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 25px;
+}
+
+.profile:hover {
+    transition: all 0.3s;
+    opacity: 50%;
 }
 
 .icoon {
@@ -44,17 +59,22 @@ nav {
 
 .nav-zoeken {
     display: flex;
-    border-radius: 10px;
+    border-radius: 1px;
     margin-left: auto;
-    margin-bottom: 5px;
-    height: 20px;
-    margin-top: 20px;
+    height: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
 .logo {
-    width: 65px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 20px;
+
 }
 
 ul {
@@ -64,39 +84,31 @@ ul {
     overflow: hidden;
 }
 
-li {
-    float: left;
-}
+
 
 li a,
 .aheren {
     display: flex;
     color: black;
     font-size: large;
-
     padding: 14px 16px;
     text-decoration: none;
-    z-index: 10;
 }
 
 .divheren {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
 }
 
 .divheren a {
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
 }
 
 .divheren a:hover {
-    background-color: #f1f1f1;
+    background-color: ghostwhite;
 }
 
 .Heren:hover .divheren {
@@ -105,31 +117,23 @@ li a,
 
 li a,
 .adames {
-    display: inline-block;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .divdames {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
 }
 
 .divdames a {
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
 }
 
 .divdames a:hover {
-    background-color: #f1f1f1;
+    background-color: ghostwhite;
 }
 
 .Dames:hover .divdames {
@@ -138,63 +142,84 @@ li a,
 
 li a,
 .akids {
-    display: inline-block;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .divkids {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
 }
 
 .divkids a {
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
 }
 
 .divkids a:hover {
-    background-color: #f1f1f1;
+    background-color: ghostwhite;
 }
 
 .Kids:hover .divkids {
     display: block;
 }
 
+h4 {
+    text-align: center;
+}
+
 .banner {
-    display:flex;
+    display: flex;
     justify-content: left;
-    align-items:left;
+    align-items: left;
     min-height: 100vh;
     width: 100%;
-    background: url(images/pexels-milodeckert-18014874.jpg);
+    background: url(pexels-milodeckert-18014874.jpg);
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .h1 {
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 100px;
     max-width: 500px;
     margin-left: 30px;
 }
 
 .tekst {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     color: white;
     margin-left: 30px;
 }
 
+.lijst {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.Schoenen {
+    width: 250px;
 
+}
 
+.isan {
+    list-style: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.isan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px;
+    transition: all 0.3s ease;
+}
