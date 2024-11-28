@@ -8,13 +8,13 @@
 
 <body>
     <main>
-        <nav> 
+        <nav>
             <img src="ISMAYOU.png" class="logo" alt="logo">
             <ul class="nav-ul">
                 <li class="Heren">
                     <a href="izan" class="aheren">Heren</a>
                     <div class="divheren">
-                        <a href="#">Schoenen</a>
+                        <a href="pages/Herenschoenen.html">Schoenen</a>
                         <a href="#">Kleding</a>
                         <a href="#">Accessoires</a>
                     </div>
@@ -54,4 +54,3 @@
 </body>
 
 </html>
-
