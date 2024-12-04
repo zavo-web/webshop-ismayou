@@ -1,0 +1,37 @@
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    width: 75px;
+    border-radius: 50px;
+    margin-right: 1500px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.fbutton {
+    margin-left: 20px;
+}
+
+button:hover {
+    color: darkgray;
+}

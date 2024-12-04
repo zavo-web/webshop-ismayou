@@ -1,0 +1,13 @@
+.isan {
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    border-radius: 100px;
+}
+
+body {
+    font-family: "indie flower", sans-serif;
+    background-color: lightgray;
+}
